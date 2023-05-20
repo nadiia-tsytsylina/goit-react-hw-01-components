@@ -1,0 +1,25 @@
+.transactionHistory {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+}
+.thead {
+  background-color: rgb(41, 122, 193);
+  color: #ffffff;
+  font-size: 14px;
+}
+.headColumn {
+  border: 1px solid #ffffff;
+}
+.row,
+.column {
+  border: 1px solid #ffffff;
+}
+.row:nth-child(odd) {
+  background-color: rgb(218, 234, 250);
+}
+
+.row:nth-child(even) {
+  background-color: rgb(183, 217, 249);
+}
