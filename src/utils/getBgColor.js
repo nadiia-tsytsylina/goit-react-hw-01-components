@@ -1,9 +1,9 @@
 export default function getBgColor(isOnline) {
   switch (isOnline) {
     case true:
-      return '#32b132';
+      return '#47b14a';
     case false:
-      return 'red';
+      return '#fa554f';
     default:
       return '#ababab';
   }
