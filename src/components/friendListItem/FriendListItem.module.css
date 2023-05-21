@@ -6,7 +6,13 @@
   padding: 10px;
   border-radius: 12px;
   box-shadow: 0px 8px 5px rgba(12, 4, 35, 0.1);
+  width: 170px;
 }
 .name {
   font-size: 20px;
+}
+.status {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
 }
