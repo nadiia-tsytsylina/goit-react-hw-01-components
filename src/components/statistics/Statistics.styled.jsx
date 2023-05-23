@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import getRandomHexColor from 'utils/RandomColor';
 
 export const Title = styled.h2`
   font-size: 20px;
@@ -15,6 +16,7 @@ export const Item = styled.li`
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+  background-color: ${getRandomHexColor};
 `;
 export const Label = styled.span`
   font-size: 12px;
